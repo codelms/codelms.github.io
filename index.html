@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Code LMS - Free Learning management system for Advanced level students</title>
+    <meta name="description" content="Learning management system for Advanced level students from Sri Lanka">
+    <meta name="keywords" content="Advanced level, Sri Lanka, LMS, code lms">
+    <meta name="author" content="ztoxy">
+    <link rel="icon" href="https://cdn.codelms.workers.dev/1:/media/codelmsicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bouncing.css">
+    <link rel="stylesheet" href="css/playlist.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
+</head>
+<body>
+<!-- Loading Element -->
+<section class="preloader" id="preloader">
+    <div class="load">
+        <div class="line line-1 load"></div>
+        <div class="line line-2 load"></div>
+        <div class="line line-3 load"></div>
+        <div class="line line-4 load"></div>
+       <div class="line line-5 load"></div> 
+    </div>
+</section>
+<!-- Loading Element -->
+    <!-- Header -->
+<header id="header">
+    <div class="header container1">
+    <div class="nav-bar">
+        <div class="brand"><a href="#"><h2 class="menus-brandName">Code LM<span class="paradox-color">S</span></h2></a>
+        </div>
+        <div class="nav-list">
+        <div class="hamburger">
+            <div class="bar"></div>
+        </div>
+        <ul class="menus-ul">
+            <li class="menus-li"><a href="#" data-after="Home">Home</a></li>
+            <li class="menus-li"><a href="#Lessons" data-after="Lessons">Lessons</a></li>
+            <li class="menus-li"><a href="#Disclaimer" data-after="Disclaimer">Disclaimer</a></li>
+            <li class="menus-li"><a href="#Updates" data-after="Updates">Updates</a></li>
+            <li class="menus-li"><a href="#Contact" data-after="Contact">Contact</a></li>
+        </ul>
+        </div>
+    </div>
+    </div>
+</header>
+    <!-- End Header -->
+
+<!-- Bouncing Ball -->
+<section scroll="no" class="project-bouncing">
+    <!-- <div class="nametag"><h1>Project Paradox</h1></div> -->
+    <div class="scene">
+        <div class="floor"></div>
+        <div class="cube">
+            <div class="front"></div>
+            <div class="back"></div>
+            <div class="left"></div>
+            <div class="right"></div>
+            <div class="top">
+                <div class="ballShadow"></div>
+            </div>
+            <div class="bottom"></div>
+        </div>
+        <div class="ball"></div>
+    </div>
+    <!-- <div class="background-proj"></div> -->
+</section>   
+    <!-- Bouncing Ball end -->
+
+<!-- Typing Text -->
+
+<div class="type-txtBox">
+    <h2 class="typing-text-1"></h2>
+    <h2 class="typing-text"></h2>
+</div>
+
+
+<!-- Typing Text end -->
+
+<!-- between frame -->
+<!-- <section class="betweenFrame" id="classes">
+</section> -->
+
+
+<!-- between frame End -->
+
+
+
+
+<!-- card class section -->
+
+<section class="cardSection" id="cardSection">
+    <div class="sectionSpace" id="Lessons"></div>
+    <div class="cardTitleSection">
+        <h1 class="cardSectionTitle topic-title">Choose your lessons</h1>
+    </div>
+    <div class="promotion-card-deck">
+    
+        <div class="promotion-card light">
+        <div class="promotion-blob"></div>
+    
+        <button class="cardButton" id="buttonChemOpen">Attend</button>
+        
+        <div class="promotion-content">
+        <h1 class="card-title card-fonts">Chemistry</h1>
+        <p class="card-paragraph card-fonts">Mr. Charitha Dissanayake<br>2021 Revision</p>
+        <p class="availableVideos card-paragraph card-fonts cardparagraph2"></p>
+        </div>
+    </div>
+    
+    <div class="promotion-card light">
+        <div class="promotion-blob"></div>
+        <button class="cardButton" id="buttonPhyOpen">Attend</button>
+        <div class="promotion-content">
+            <h1 class="card-title card-fonts">Physics</h1>
+            <p class="card-paragraph card-fonts">Lessons still not added.</p><br>
+            <p class="card-paragraph card-fonts cardparagraph2">No Lessons available.</p>
+        </div>
+    </div>
+    
+</div>
+</section>
+
+    <!-- Playlist Start -->
+<section id="chemistry" class="content-section">
+    <div class="videoTitleContainer">
+        <h2 class="title"></h2>
+        <button class="buttonStyle" id="buttonChemClose">Close</button>
+    </div>
+    <div class="container">
+        <div id="video_player">
+            <video 
+            preload="none"
+            controls 
+            id="main-Video" 
+            src="">
+            </video>
+        </div>
+        <div class="playlistBx">
+            <div class="header-playlist">
+                <div class="row">
+                    <span class="AllLessons"></span>
+                </div>
+            </div>
+            <ul class="playlist playlist-ul" id="playlist">
+            </ul>
+        </div>
+    </div>
+    
+</section>
+    <!-- Playlist End -->
+
+<!-- End of card class section -->
+<!-- classVidSection -->
+
+<!-- error -->
+<section class="error1" id="error1">
+    <div class="error1_box">
+        <h2 class="error1Title">Sorry!</h2>
+        <p class="error1Description">
+            Lessons are still not added. Be patient !
+        </p>
+        <button class="error1ButtonClose" id="error1ButtonClose">Close</button>
+
+    </div>
+</section>
+<!-- error -->
+
+
+<section class="cardSection2" id="Disclaimer">
+    <div class="sectionSpace"></div>
+    <div class="card2SectionTopicDiv">
+        <h1 class="card2SectionTopic topic-title">Disclaimer</h1>
+    </div>
+    <div class="card2Container">
+        <div class="card2">
+            <div class="card2InsideDiv">
+                <h1 class="card2Title">Disclaimer from developer</h1>
+                <p class="card2Description">For the sake of Sri Lankan current situation we had to make a solution for A/L students. That's why we built this project.
+                    We think we chose the right decision for the future generation of this country. <br><br>
+                    I am very thankful for those teachers, who are trying to teach their students so far and I wish both of those parties to make the best of their part.
+                    At this point I do not know am I right or wrong because I'm feeling guilty. But God made me to do this.</p>
+            </div>
+        </div>
+        <div class="card2">
+            <div class="card2InsideDiv">
+                <h1 class="card2Title">Disclaimer for Learners</h1>
+                <p class="card2Description">To achieve your goals, first of all you need to learn. I know it is very hard. That's why I made it easy for you.
+                    As a learner or viewer you shouldn't download those contents.<br><br>
+                    By using this site End-user (which means you are) Agrees only to watch videos that they (or you) paid to the Original content owner, 
+                    We will not responsible for any of the actions taken by End-users. All the materials here are sole properties of their owners.</p>
+            </div>
+        </div>
+        <div class="card2">
+            <div class="card2InsideDiv">
+                <h1 class="card2Title">Disclaimer of website</h1>
+                <p class="card2Description">All the information on this website and drive is published in good faith and for general information purpose only. 
+                    "Code LMS" does not make any warranties about the completeness, reliability and accuracy of this information. 
+                    Any action you take upon the information you find on this website (codelms.github.io), is strictly at your own risk.<br><br>
+                    Site, drive and developers will not be liable for any losses and/or damages in connection with the use of our website.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Updates Section -->
+
+<section>
+    <div class="sectionSpace" id="Updates"></div>
+    <div class="updateTitleDiv">
+        <h1 class="updateTitle topic-title">Updates</h1>
+    </div>
+    <div class="updateDiv">
+        
+        </div>
+
+    </div>
+
+</section>
+
+
+
+
+
+<!-- Contact Section -->
+
+<section class="contactSection">
+    <div class="sectionSpace" id="Contact"></div>
+    <div class="contactTitleDiv">
+        <h1 class="contactTitle topic-title">Contact</h1>
+    </div>
+    <div class="contactDiv">
+        <div class="contactSVGDiv">
+            <div class="telegramSVG"></div>
+        </div>
+        <div class="contactInsideDiv">
+            <h2 class="contactInTitle">Join with Telegram</h2>
+            <span class="contactInsideSpan">
+            <p class="contactInDescription">
+                You can join us through our Telegram Channel. Click <a target="_blank" href="https://t.me/+LXgGV755DeMwMzM5">this</a> link to join and see further notices. Keep in touch. 👀
+
+            </p>
+            </span>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <div class="foot">
+        <p class="develop" style="color: white;">Developed by ztoxy</p>
+    </div>
+</footer>
+
+
+
+
+
+
+
+
+
+    <!-- <img src="media/videocam-outline.png" alt=""> -->
+
+<!-- <div class="container-box"> -->
+    <!-- <div class="box">A
+        <p class="typing-text"></p>
+    </div> -->
+    <!-- <div class="box">B</div>
+    <div class="box">C</div>
+    <div class="box">D</div>
+    <div class="box">E</div>
+    <div class="box">F</div>
+    <div class="box">G</div>
+</div> -->
+<script>
+    const preloader = document.getElementById('preloader');
+
+    window.addEventListener("load" , function() {
+        preloader.style.display = "none";
+    });
+</script>
+
+<script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-firestore.js"></script>
+<script>
+// Import the functions you need from the SDKs you need
+
+// TODO: Add SDKs for Firebase products that you want to use
+// https://firebase.google.com/docs/web/setup#available-libraries
+
+// Your web app's Firebase configuration
+
+let firebaseConfig = {
+    apiKey: "AIzaSyCqK2mzwBdD-BTQlqZXiHLcjxf6CBH7riI",
+    authDomain: "lmsdatabase-86318.firebaseapp.com",
+    projectId: "lmsdatabase-86318",
+    storageBucket: "lmsdatabase-86318.appspot.com",
+    messagingSenderId: "1021413876465",
+    appId: "1:1021413876465:web:1e2a48b2eeb30ce0987f50"
+  };
+
+//   Initialize Firebase
+firebase.initializeApp(firebaseConfig);
+const db = firebase.firestore();
+</script>
+
+
+
+<script src="js/video-list.js"></script>
+<script src="js/script.js"></script>
+<script src="js/playlist.js"></script>
+<script src="js/db.js"></script>
+</body>
+</html>
